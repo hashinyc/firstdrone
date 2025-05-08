@@ -43,7 +43,7 @@ pipeline:
         spec:
           deploymentType: Kubernetes
           service:
-            serviceRef: FirstApp
+            serviceRef: harnessguestbook
           environment:
             environmentRef: preprod
             deployToAll: false
