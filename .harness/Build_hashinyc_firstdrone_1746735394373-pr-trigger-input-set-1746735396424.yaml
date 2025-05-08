@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hashinyc_firstdrone_1746735394373-pr-trigger-input-set
+  identifier: Build_hashinyc_firstdrone_1746735394373prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_hashinyc_firstdrone_1746735394373
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
